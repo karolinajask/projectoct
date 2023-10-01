@@ -84,7 +84,7 @@ def main():
     if button:
         # make prediction
         result = predict(year, routing_code,new_property)
-        st.success(f'The value of the house is EUR{result}')
+        st.success(f'The value of the house is EUR {result}')
     with st.container():
         st.write("Not sure about your routing code?")
         a = st.text_input('Enter the area/district below')
