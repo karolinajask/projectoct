@@ -1,5 +1,6 @@
 import pandas as pd
-import warnings                                                     # Importing warning to disable runtime warnings
+import warnings
+import sklearn                                                     # Importing warning to disable runtime warnings
 warnings.filterwarnings("ignore")    
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.ensemble import RandomForestRegressor
