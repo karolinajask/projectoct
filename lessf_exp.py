@@ -1,5 +1,6 @@
 import pandas as pd
-import warnings                                                     
+import warnings   
+import sklearn                                                  
 warnings.filterwarnings("ignore")                                   
                                   
 df2 = pd.read_csv("set_lessf.csv")
