@@ -74,7 +74,7 @@ def main():
     st.write(tabs_font_css, unsafe_allow_html=True)
 
     
-    year = st.number_input('Enter the year you want to buy',help='Please choose a year between 2024 and 2050', step =1, value=2024, min_value=2024, max_value=2050)
+    year = st.number_input('Enter the year you want to buy / sell',help='Please choose a year between 2024 and 2050', step =1, value=2024, min_value=2024, max_value=2050)
     routing_code = st.selectbox('Select routing code', ('A42','A94','A96','D01','D02','D03','D04','D05','D06','D6W','D07','D08','D09','D10','D11','D12','D13','D13','D15','D16','D18','D22','D24',
                                                                'K32','K34','K36','K45','K67','K78'),help='Routing code consists of first 3 characters of your Eircode,\n for example: D01 ABC -> routing code is D01.')
     st.write('Can\'t find your routing code?. Let us know and we\'ll fix it for you ! Contact our team at support@hpdublin.ie or call +353 55555 🚨')
